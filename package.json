@@ -4,7 +4,9 @@
   "description": "Have you ever wanted a function to perform a task in your backend application, without needing to create a complex function to do that or want to delete a file at a scheduled time without doing that yourself? Well, not anymore since that's what Cron Jobs is for.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
